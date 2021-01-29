@@ -68,6 +68,7 @@ export default StyleSheet.create({
     key: {
         marginRight:243,
         top:93
-    }
+    },
+
 })
 

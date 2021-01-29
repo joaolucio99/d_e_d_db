@@ -1,5 +1,6 @@
 package com.d_d_db;
 
+import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
@@ -28,6 +29,7 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           packages.add(new LinearGradientPackage());
+          packages.add(new ReactCheckBoxPackage());
           //packages.add(new SvgPackage());
           return packages;
         }
